@@ -15,20 +15,20 @@ body {
     sans-serif;
 }
 
-.cv-header {
+.header {
   background-color: var(--background-color-01);
   color: var(--text-color-01);
   padding-top: 50px;
   padding-bottom: 20px;
 }
 
-.cv-header h1 {
+.header h1 {
   font-size: 29.1px;
   font-weight: bold;
   margin-top: 0;
 }
 
-.cv-header p {
+.header p {
   font-size: 14;
   margin-bottom: 0;
 }
