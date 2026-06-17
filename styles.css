@@ -1,6 +1,7 @@
 :root {
   --text-color-01: #444444;
-  --text-color-02: #323232;
+  --text-color-02: #4a4a4a;
+  --text-color-03: #323232;
 
   --icons-n-sht: #323232;
 
@@ -15,7 +16,7 @@ body {
 
 .header {
   background-color: var(--background-color-01);
-  color: var(--text-color-01);
+  color: var(--text-color-03);
   padding-top: 50px;
   padding-bottom: 20px;
 }
@@ -29,4 +30,109 @@ body {
 .header p {
   font-size: 14;
   margin-bottom: 0;
+}
+
+.main {
+  margin: auto;
+  padding: 10px;
+}
+
+.aside {
+  margin: auto;
+  padding: 10px;
+}
+
+.aboutMe {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.aboutMe h5 {
+  font-size: medium;
+  font-weight: bold;
+  color: var(--text-color-02);
+}
+
+.aboutMe p {
+  font-size: small;
+  color: var(--text-color-01);
+}
+
+.exp {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.exp h5 {
+  font-size: medium;
+  font-weight: bold;
+  color: var(--text-color-02);
+}
+
+.exp li {
+  font-size: small;
+  color: var(--text-color-01);
+}
+
+.contact {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.contact h5 {
+  font-size: medium;
+  font-weight: bold;
+  color: var(--text-color-02);
+}
+
+.contact li {
+  font-size: small;
+  color: var(--text-color-01);
+}
+
+.skills {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.skills h5 {
+  font-size: medium;
+  font-weight: bold;
+  color: var(--text-color-02);
+}
+
+.skills li {
+  font-size: small;
+  color: var(--text-color-01);
+}
+
+.academics {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.academics h5 {
+  font-size: medium;
+  font-weight: bold;
+  color: var(--text-color-02);
+}
+
+.academics li {
+  font-size: small;
+  color: var(--text-color-01);
 }
